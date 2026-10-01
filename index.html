@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rania Farjallah · Data Scientist, ML Developer &amp; AI/ML Researcher</title>
+  <meta name="description" content="Rania Farjallah, Data Scientist, ML Developer and AI & ML Researcher in Montréal. Forecasting, optimization, 5G time-series research and two IEEE publications.">
+  <meta name="author" content="Rania Farjallah">
+  <meta property="og:title" content="Rania Farjallah · Data Scientist & ML Developer">
+  <meta property="og:description" content="Forecasting, optimization and 5G time-series research. Two IEEE publications. Based in Montréal.">
+  <meta property="og:image" content="img/hero.png">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#EF233C">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@500&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+<div class="progress" id="progress"></div>
+
+<nav class="nav" id="nav">
+  <div class="container">
+    <a class="brand" href="#home">RANIA <span class="it">Farjallah</span></a>
+    <div class="links" id="links">
+      <a href="#about" data-fr="À propos">About</a>
+      <a href="#research" data-fr="Recherche">Research</a>
+      <a href="#experience" data-fr="Expérience">Experience</a>
+      <a href="#skills" data-fr="Compétences">Skills</a>
+      <a href="#projects" data-fr="Projets">Projects</a>
+      <a href="#activities" data-fr="Activités">Activities</a>
+      <a href="#contact" data-fr="Contact">Contact</a>
+    </div>
+    <div class="lang" role="group" aria-label="Language">
+      <button type="button" data-lang="en" class="on">EN</button><button type="button" data-lang="fr">FR</button>
+    </div>
+    <button type="button" class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="links"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero" id="home">
+  <div class="container">
+    <div>
+      <p class="hello" data-fr="Bonjour, je suis">Hello, I'm</p>
+      <h1>Rania <span>Farjallah</span></h1>
+      <div class="role"><span class="p">&gt;</span> <span id="typed">data_scientist</span><span class="caret"></span></div>
+      <p class="pitch" data-fr="Scientifique de données, développeuse ML et chercheuse en IA et ML avec plus de 4 ans d'expérience à transformer des données brutes en décisions : prévision de la demande et optimisation des plannings à l'aéroport Montréal-Trudeau, génération de trafic 5G avec Ericsson, et deux publications IEEE.">Data scientist, ML developer and AI &amp; ML researcher with 4+ years turning raw data into decisions: demand forecasting and schedule optimization at Montréal-Trudeau airport, 5G traffic generation with Ericsson, and two IEEE publications.</p>
+      <div class="cta">
+        <a class="btn" href="#contact" data-fr='<i class="fa-solid fa-paper-plane"></i> Me contacter'><i class="fa-solid fa-paper-plane"></i> Hire me</a>
+        <a class="btn line" href="#experience" data-fr="Voir mon parcours">View my work</a>
+      </div>
+      <div class="socials">
+        <a href="https://www.linkedin.com/in/rania-farjallah-3a3600192" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#research" aria-label="Publications"><i class="fa-solid fa-graduation-cap"></i></a>
+        <a href="#contact" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+    <div>
+      <div class="portrait"><canvas id="portrait" aria-label="Portrait of Rania Farjallah made of coloured particles"></canvas></div>
+      <p class="hint" data-fr="bougez la souris ou touchez · <b>cliquez</b> pour reconstruire">move the mouse or touch · <b>click</b> to rebuild</p>
+    </div>
+  </div>
+</header>
+
+<!-- ABOUT -->
+<section id="about" class="alt">
+  <div class="container about-grid">
+    <div class="about-img reveal from-left">
+      <svg class="stamp" viewBox="0 0 120 120" aria-hidden="true"><defs><path id="cp" d="M60,60 m-46,0 a46,46 0 1,1 92,0 a46,46 0 1,1 -92,0"/></defs><circle cx="60" cy="60" r="58" fill="#fff"/><text><textPath href="#cp" id="stampText">OPEN TO WORK · MONTRÉAL · </textPath></text><circle cx="60" cy="60" r="10" fill="#EF233C"/></svg>
+      <img src="img/about.jpg" alt="Rania Farjallah presenting at ÉTS">
+      <div class="tag" data-fr='<i class="fa-solid fa-award"></i> M.A.Sc. · Moyenne 4,04 / 4,30'><i class="fa-solid fa-award"></i> M.A.Sc. · GPA 4.04 / 4.30</div>
+    </div>
+    <div class="about-text reveal from-right">
+      <div class="section-header"><p data-fr="À propos">About me</p><h2 data-fr="Je transforme les données en décisions">I turn data into decisions</h2></div>
+      <p data-fr="Je suis scientifique de données et développeuse en apprentissage automatique à Montréal. Je conçois des systèmes ML complets : pipelines de données, modèles prédictifs et moteurs d'optimisation.">I'm a data scientist and machine-learning developer based in Montréal. I build complete ML systems: data pipelines, predictive models and optimization engines.</p>
+      <p data-fr="Récemment, j'ai développé une plateforme de prévision et de planification CP-SAT pour l'assistance aux passagers à l'aéroport Montréal-Trudeau (YUL). Auparavant, ma maîtrise avec Ericsson a produit un trafic 5G synthétique qui conserve plus de 95 % des propriétés statistiques des données réelles.">Most recently I built a forecasting and CP-SAT scheduling platform for passenger assistance at Montréal-Trudeau (YUL). Before that, my master's research with Ericsson produced synthetic 5G traffic that keeps more than 95% of the real data's statistical properties.</p>
+      <div class="stats">
+        <div class="stat"><b data-count="4" data-suffix="+">4+</b><span data-fr="ans en science des données et ML">years in data science &amp; ML</span></div>
+        <div class="stat"><b data-count="2">2</b><span data-fr="publications IEEE">IEEE publications</span></div>
+        <div class="stat"><b data-count="95" data-suffix="%">95%</b><span data-fr="fidélité du trafic 5G synthétique">fidelity of synthetic 5G traffic</span></div>
+        <div class="stat"><b data-count="3">3</b><span data-fr="langues : FR, EN, DE">languages: EN, FR, DE</span></div>
+      </div>
+      <div style="display:flex;gap:12px;flex-wrap:wrap">
+        <a class="btn outline" href="#research" data-fr="Ma recherche">My research</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RESEARCH -->
+<section id="research">
+  <div class="container">
+    <div class="section-header reveal zoom"><p data-fr="Recherche">Research</p><h2 data-fr="Publications scientifiques">Published work</h2></div>
+    <div class="pub-grid">
+      <div class="pubs">
+        <article class="pub reveal from-left">
+          <span class="n">01</span>
+          <span class="year" data-fr="2026 · REVUE">2026 · JOURNAL</span>
+          <h3>Maximum Entropy-Based Traffic Generation</h3>
+          <p>IEEE Transactions on Network and Service Management</p>
+          <a href="https://ieeexplore.ieee.org/search/searchresult.jsp?queryText=Maximum%20Entropy-Based%20Traffic%20Generation" target="_blank" rel="noopener" data-fr='Lire l&#39;article <i class="fa-solid fa-arrow-right"></i>'>Read the paper <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+        <article class="pub reveal from-left">
+          <span class="n">02</span>
+          <span class="year" data-fr="2025 · CONFÉRENCE">2025 · CONFERENCE</span>
+          <h3>Evaluation of Missing Data Imputation for Time Series Without Ground Truth</h3>
+          <p>IEEE International Conference on Communications (ICC 2025)</p>
+          <a href="https://ieeexplore.ieee.org/search/searchresult.jsp?queryText=Evaluation%20of%20Missing%20Data%20Imputation%20for%20Time%20Series%20Without%20Ground%20Truth" target="_blank" rel="noopener" data-fr='Lire l&#39;article <i class="fa-solid fa-arrow-right"></i>'>Read the paper <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+      </div>
+      <figure class="scope reveal from-right" style="margin:0">
+        <div class="scope-head"><span data-fr="trafic 5G · démo d'imputation">5G traffic · imputation demo</span><span class="live" id="readout">live</span></div>
+        <canvas id="scope" aria-label="Animated 5G traffic signal with gaps filled by a model"></canvas>
+        <div class="legend"><span data-fr='<i style="background:#ffffff"></i>observé'><i style="background:#ffffff"></i>observed</span><span data-fr='<i style="background:var(--red)"></i>imputé (LSTM)'><i style="background:var(--red)"></i>imputed (LSTM)</span><span data-fr='<i style="background:#666"></i>manquant'><i style="background:#666"></i>missing</span></div>
+        <p data-fr="Mon mémoire en image : quand des mesures 5G manquent, des modèles comblent les trous, et mes métriques évaluent le résultat sans vérité terrain.">My thesis, visualized: when 5G measurements go missing, models fill the gaps, and my metrics check the result without ground truth.</p>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE + EDUCATION + TEACHING -->
+<section id="experience" class="alt">
+  <div class="container">
+    <div class="section-header reveal zoom"><p data-fr="Mon parcours">My resume</p><h2 data-fr="Expérience professionnelle">Work experience</h2></div>
+    <div class="timeline">
+      <div class="fill"></div>
+      <div class="t-item left reveal from-left">
+        <div class="t-date">04/2026 – 08/2026</div>
+        <div class="t-card">
+          <h3 data-fr="Développeuse ML sénior">Senior ML Developer</h3>
+          <h4>OPSIS Aéro · Dorval, Canada</h4>
+          <p data-fr="Solution de bout en bout pour l'assistance aux passagers à mobilité réduite à l'aéroport Montréal-Trudeau (YUL).">End-to-end platform for reduced-mobility passenger assistance at Montréal-Trudeau Airport (YUL).</p>
+          <ul>
+            <li data-fr="Modèles prédictifs de la demande opérationnelle et des besoins en ressources.">Forecasting models for operational demand and staffing needs.</li>
+            <li data-fr="Moteur OR-Tools CP-SAT qui génère automatiquement des plannings optimisés.">OR-Tools CP-SAT engine that generates optimized schedules automatically.</li>
+            <li data-fr="PWA multi-rôles pour superviseurs et gestionnaires, et lecture des cartes d'embarquement par traitement d'image.">Multi-role PWA for supervisors and managers, plus boarding-pass scanning with image processing.</li>
+          </ul>
+          <div class="chips"><span class="chip">XGBoost</span><span class="chip">CP-SAT</span><span class="chip">PostgreSQL</span><span class="chip">REST API</span><span class="chip" data-fr="Vision par ordinateur">Computer vision</span></div>
+        </div>
+      </div>
+      <div class="t-item right reveal from-right">
+        <div class="t-date">05/2023 – 10/2025</div>
+        <div class="t-card">
+          <h3 data-fr="Scientifique de données, génération de trafic 5G">Data Scientist, 5G Traffic Generation</h3>
+          <h4>Ericsson Canada &amp; Synchromedia Lab (ÉTS)</h4>
+          <ul>
+            <li data-fr="Trois nouvelles métriques pour évaluer l'imputation sans vérité terrain.">Three new metrics to evaluate imputation quality without ground truth.</li>
+            <li data-fr="Comparaison de TimeGPT, LSTM et XGBoost pour l'imputation de séries temporelles 5G.">Benchmarked TimeGPT, LSTM and XGBoost imputation on 5G time series.</li>
+            <li data-fr="Trafic 5G synthétique préservant plus de 95 % des statistiques originales.">Synthetic 5G traffic preserving more than 95% of original statistics.</li>
+            <li data-fr="Générateur de trafic par entropie maximale : interprétable et économe en données.">Maximum-entropy traffic generator: interpretable and data-efficient.</li>
+          </ul>
+          <div class="chips"><span class="chip">TimeGPT</span><span class="chip">LSTM</span><span class="chip">XGBoost</span><span class="chip" data-fr="Entropie max.">Max entropy</span></div>
+        </div>
+      </div>
+      <div class="t-item left reveal from-left">
+        <div class="t-date">09/2022 – 05/2023</div>
+        <div class="t-card">
+          <h3 data-fr="Ingénieure des données">Data Engineer</h3>
+          <h4 data-fr="PRIMATEC Engineering · client BMW Group">PRIMATEC Engineering · client BMW Group</h4>
+          <ul>
+            <li data-fr="Automatisation en Python des rapports de tests de sécurité automobile.">Python automation of vehicle-safety test reports.</li>
+            <li data-fr="Pipelines ETL avec contrôles de qualité des données.">ETL pipelines with data-quality checks.</li>
+            <li data-fr="Modèles ML qui prédisent les défaillances à partir des données historiques.">ML models that predict failures from historical test data.</li>
+          </ul>
+          <div class="chips"><span class="chip">Python</span><span class="chip">ETL</span><span class="chip">Power BI</span><span class="chip">ML</span></div>
+        </div>
+      </div>
+      <div class="t-item right reveal from-right">
+        <div class="t-date">02/2022 – 08/2022</div>
+        <div class="t-card">
+          <h3 data-fr="Ingénieure en apprentissage automatique">Machine Learning Engineer</h3>
+          <h4 data-fr="TELNET Holding · Tunisie">TELNET Holding · Tunisia</h4>
+          <ul>
+            <li data-fr="Analytique prédictive par IA pour l'agriculture intelligente à partir de données satellitaires, géospatiales et de capteurs.">AI predictive analytics for smart agriculture from satellite, geospatial and sensor data.</li>
+            <li data-fr="Pipelines pour les données haute fréquence du satellite Challenge One.">Pipelines for the Challenge One satellite's high-frequency data.</li>
+          </ul>
+          <div class="chips"><span class="chip" data-fr="Géospatial">Geospatial</span><span class="chip" data-fr="Prévision">Forecasting</span><span class="chip" data-fr="Données satellitaires">Satellite data</span></div>
+        </div>
+      </div>
+    </div>
+
+    <h2 class="sub-head reveal zoom" id="education" data-fr="Formation">My education</h2>
+    <div class="timeline">
+      <div class="fill"></div>
+      <div class="t-item left reveal from-left">
+        <div class="t-date">05/2023 – 10/2025</div>
+        <div class="t-card">
+          <h3>École de technologie supérieure (ÉTS)</h3>
+          <h4>Montréal, Canada</h4>
+          <p data-fr="Maîtrise en sciences appliquées (M.A.Sc.) · Moyenne 4,04 / 4,30">Master of Applied Science (M.A.Sc.) · GPA 4.04 / 4.30</p>
+          <p data-fr="Recommandation pour le Prix d'excellence du Conseil d'administration. Bourse Mitacs Accelerate.">Recommended for the Board of Directors' Excellence Award. Mitacs Accelerate scholarship.</p>
+        </div>
+      </div>
+      <div class="t-item right reveal from-right">
+        <div class="t-date">09/2019 – 09/2022</div>
+        <div class="t-card">
+          <h3 data-fr="École Supérieure des Communications de Tunis (SUP'COM)">Higher School of Communications of Tunis (SUP'COM)</h3>
+          <h4 data-fr="Diplôme d'ingénieur en télécommunications · Tunisie">Telecommunications engineering · Tunisia</h4>
+          <p data-fr="Estimation, modélisation, optimisation stochastique et apprentissage automatique.">Estimation, modeling, stochastic optimization and machine learning.</p>
+        </div>
+      </div>
+    </div>
+
+    <h2 class="sub-head reveal zoom" data-fr="Expérience académique">Teaching experience</h2>
+    <div class="timeline">
+      <div class="fill"></div>
+      <div class="t-item left reveal from-left">
+        <div class="t-date">04/2026 – 07/2026</div>
+        <div class="t-card">
+          <h3 data-fr="Formatrice en réseautique">Networking Instructor</h3>
+          <h4>L'Académie · Montréal</h4>
+          <p data-fr="TCP/IP, DNS, routage, commutation et sécurité réseau, avec travaux pratiques sur Cisco Packet Tracer.">TCP/IP, DNS, routing, switching and network security, with Cisco Packet Tracer labs.</p>
+        </div>
+      </div>
+      <div class="t-item right reveal from-right">
+        <div class="t-date">01/2025 – 10/2025</div>
+        <div class="t-card">
+          <h3 data-fr="Chargée de cours adjointe">Adjunct Lecturer</h3>
+          <h4>École de technologie supérieure (ÉTS)</h4>
+          <p data-fr="Cours de 2e cycle sur les jumeaux numériques : modélisation, contrôle et réalité virtuelle. Encadrement de simulations de quadricoptères avec MATLAB/Simulink et Unity 3D.">Graduate course on digital twins: modeling, control and VR. Supervised quadcopter simulations in MATLAB/Simulink and Unity 3D.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="container">
+    <div class="section-header reveal zoom"><p data-fr="Mes outils">What I use</p><h2 data-fr="Compétences techniques">Technical skills</h2></div>
+    <div class="skill-grid">
+      <div class="skill reveal"><div class="ico"><i class="fa-solid fa-brain"></i></div><h3 data-fr="Apprentissage automatique">Machine learning</h3>
+        <div class="chips"><span class="chip">XGBoost</span><span class="chip">Random Forest</span><span class="chip">Gradient Boosting</span><span class="chip">LSTM</span><span class="chip">CNN</span><span class="chip">Transformers</span><span class="chip">TimeGPT</span></div></div>
+      <div class="skill reveal"><div class="ico"><i class="fa-solid fa-chart-line"></i></div><h3 data-fr="Prévision et optimisation">Forecasting &amp; optimization</h3>
+        <div class="chips"><span class="chip" data-fr="Séries temporelles">Time series</span><span class="chip">OR-Tools CP-SAT</span><span class="chip" data-fr="Entropie max.">Max entropy</span><span class="chip">SciPy</span><span class="chip" data-fr="Statistiques">Statistics</span></div></div>
+      <div class="skill reveal"><div class="ico"><i class="fa-solid fa-database"></i></div><h3 data-fr="Ingénierie des données">Data engineering</h3>
+        <div class="chips"><span class="chip">Python</span><span class="chip">pandas</span><span class="chip">NumPy</span><span class="chip">scikit-learn</span><span class="chip">SQL</span><span class="chip">PostgreSQL</span><span class="chip">NoSQL</span><span class="chip">ETL</span><span class="chip">REST APIs</span></div></div>
+      <div class="skill reveal"><div class="ico"><i class="fa-solid fa-cloud"></i></div><h3 data-fr="Cloud et Big Data">Cloud &amp; big data</h3>
+        <div class="chips"><span class="chip">Microsoft Azure</span><span class="chip">Databricks</span><span class="chip">Apache Spark</span><span class="chip">PySpark</span></div></div>
+      <div class="skill reveal"><div class="ico"><i class="fa-solid fa-chart-pie"></i></div><h3 data-fr="Visualisation">Visualization</h3>
+        <div class="chips"><span class="chip">Power BI</span><span class="chip">Tableau</span><span class="chip">Plotly</span><span class="chip">Matplotlib</span><span class="chip">Seaborn</span></div></div>
+      <div class="skill reveal"><div class="ico"><i class="fa-solid fa-code-branch"></i></div><h3 data-fr="Outils">Tools</h3>
+        <div class="chips"><span class="chip">Git</span><span class="chip">GitHub</span><span class="chip">Jira</span><span class="chip">Codebeamer</span><span class="chip">MATLAB</span><span class="chip">Unity 3D</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="alt">
+  <div class="container">
+    <div class="section-header reveal zoom"><p>Portfolio</p><h2 data-fr="Mes projets">My projects</h2></div>
+    <div class="filters" role="group" aria-label="Filter projects">
+      <button type="button" class="on" data-f="all" data-fr="Tous">All</button>
+      <button type="button" data-f="ai" data-fr="IA et données">AI &amp; data</button>
+      <button type="button" data-f="iot" data-fr="IoT et applis">IoT &amp; apps</button>
+      <button type="button" data-f="hw" data-fr="Télécom et électronique">Telecom &amp; hardware</button>
+    </div>
+    <div class="proj-grid">
+      <article class="proj reveal" data-cat="ai">
+        <div class="img"><img src="img/team-2.jpg" alt="Electronic medical record project"></div>
+        <div class="body"><span class="cat" data-fr="IA · Santé">AI · Health</span><h3 data-fr="Dossier médical électronique">Electronic Medical Record</h3>
+          <p data-fr="Application web qui suit la santé d'une équipe sportive et prédit blessures et indisponibilités à partir d'IRM grâce au ML.">Web app that monitors a sports team's health and predicts injuries and unavailability from MRI data with ML.</p>
+          <a class="more" href="https://supcom-my.sharepoint.com/:f:/g/personal/rania_farjallah_supcom_tn/EoqmxTAqxGpGjrPzxtHlU1oBcEdb216d0tJyTntrlQxYYg?e=pzdhSM" target="_blank" rel="noopener" data-fr='Voir le projet <i class="fa-solid fa-arrow-right"></i>'>View project <i class="fa-solid fa-arrow-right"></i></a></div>
+      </article>
+      <article class="proj reveal" data-cat="iot">
+        <div class="img"><img src="img/team-1.jpg" alt="E-Port project"></div>
+        <div class="body"><span class="cat" data-fr="IoT · Entrepreneuriat">IoT · Entrepreneurship</span><h3>E-Port</h3>
+          <p data-fr="Système IoT intelligent de gestion des bateaux de pêche et de plaisance, avec sécurité antivol.">Smart IoT system to manage fishing and pleasure boats, with anti-theft security.</p>
+          <a class="more" href="https://youtu.be/zvLUaTJsoJU" target="_blank" rel="noopener" data-fr='Voir la vidéo <i class="fa-solid fa-arrow-right"></i>'>Watch video <i class="fa-solid fa-arrow-right"></i></a></div>
+      </article>
+      <article class="proj reveal" data-cat="iot">
+        <div class="img"><img src="img/team-3.jpg" alt="PsychUp mobile app"></div>
+        <div class="body"><span class="cat">Mobile</span><h3>PsychUp</h3>
+          <p data-fr="Application mobile qui met les utilisateurs en contact avec des psychiatres tout en préservant leur anonymat.">Mobile app that connects users with psychiatrists while keeping them anonymous.</p>
+          <a class="more" href="https://supcom-my.sharepoint.com/:f:/g/personal/rania_farjallah_supcom_tn/EikjQlEIa99PqCkDqZsjRxIBI5UAJwpeI4CqGIQRwLUAWA?e=YsXk3f" target="_blank" rel="noopener" data-fr='Voir le projet <i class="fa-solid fa-arrow-right"></i>'>View project <i class="fa-solid fa-arrow-right"></i></a></div>
+      </article>
+      <article class="proj reveal" data-cat="hw">
+        <div class="img"><img src="img/team-4.jpg" alt="Optical communication project"></div>
+        <div class="body"><span class="cat" data-fr="Télécom optique">Optical telecom</span><h3 data-fr="Liaison WDM 16 canaux">16-channel WDM link</h3>
+          <p data-fr="Simulation et planification d'une chaîne optique WDM longue distance et haut débit sous OptiSystem.">Simulation and planning of a long-distance, high-speed WDM optical chain in OptiSystem.</p>
+          <a class="more" href="https://supcom-my.sharepoint.com/:f:/g/personal/rania_farjallah_supcom_tn/EiEQ7fOoMVZFiUci12aVHRkByxvA6L6OQvgAmIYxVHab2w?e=sSW2nB" target="_blank" rel="noopener" data-fr='Voir le projet <i class="fa-solid fa-arrow-right"></i>'>View project <i class="fa-solid fa-arrow-right"></i></a></div>
+      </article>
+      <article class="proj reveal" data-cat="hw">
+        <div class="img"><img src="img/ele.jpg" alt="FPGA ALU project"></div>
+        <div class="body"><span class="cat" data-fr="Électronique">Electronics</span><h3 data-fr="Unité arithmétique et logique sur FPGA">FPGA arithmetic logic unit</h3>
+          <p data-fr="UAL programmée et testée sur une carte FPGA Cyclone V avec Quartus.">ALU programmed and tested on a Cyclone V FPGA board in Quartus.</p>
+          <a class="more" href="https://supcom-my.sharepoint.com/:f:/g/personal/rania_farjallah_supcom_tn/EsJLNqUsMjVLjDH_935FxIYBE6Un2NqweQwFClbtxCcqjw?e=7Rha7Q" target="_blank" rel="noopener" data-fr='Voir le projet <i class="fa-solid fa-arrow-right"></i>'>View project <i class="fa-solid fa-arrow-right"></i></a></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ACTIVITIES -->
+<section id="activities">
+  <div class="container">
+    <div class="section-header reveal zoom"><p data-fr="Engagement">Community</p><h2 data-fr="Mes activités">My activities</h2></div>
+    <div class="act-track" id="track">
+      <article class="act"><div class="img"><img src="img/blog.jpg" alt="ACFAS 2025"></div><div class="body"><h3 data-fr="Congrès de l'ACFAS 2025">ACFAS 2025 Congress</h3><div class="meta"><span data-fr='<i class="fa-regular fa-user"></i> Bénévole'><i class="fa-regular fa-user"></i> Volunteer</span><span><i class="fa-regular fa-calendar"></i> 05/2025</span></div><p data-fr="Logistique, inscriptions et accueil des participants au plus grand congrès scientifique multidisciplinaire du Canada.">Logistics, registration and participant orientation at Canada's largest multidisciplinary scientific conference.</p></div></article>
+      <article class="act"><div class="img"><img src="img/IEEE.jpg" alt="IEEE SUP'COM"></div><div class="body"><h3 data-fr="Branche étudiante IEEE SUP'COM">IEEE SUP'COM Student Branch</h3><div class="meta"><span data-fr='<i class="fa-regular fa-user"></i> Membre'><i class="fa-regular fa-user"></i> Member</span><span><i class="fa-regular fa-calendar"></i> 2019 – 2021</span></div><p data-fr="Membre de la plus grande organisation professionnelle technique au monde.">Member of the world's largest technical professional organization.</p></div></article>
+      <article class="act"><div class="img"><img src="img/blog-1.jpg" alt="SUP'COM Junior Entreprise"></div><div class="body"><h3>SUP'COM Junior Entreprise</h3><div class="meta"><span data-fr='<i class="fa-regular fa-user"></i> Responsable événements'><i class="fa-regular fa-user"></i> Event manager</span><span><i class="fa-regular fa-calendar"></i> 2019 – 2021</span></div><p data-fr="Organisation d'événements et de team-buildings, et animation des membres.">Organized events and team-building, and kept members engaged.</p></div></article>
+      <article class="act"><div class="img"><img src="img/blog-2.jpg" alt="TEAM SUP'COM"></div><div class="body"><h3>TEAM SUP'COM</h3><div class="meta"><span data-fr='<i class="fa-regular fa-user"></i> Sponsoring'><i class="fa-regular fa-user"></i> Sponsorship</span><span><i class="fa-regular fa-calendar"></i> 2019 – 2020</span></div><p data-fr="Recherche de sponsors pour le forum annuel de l'école.">Found sponsors for the school's annual forum.</p></div></article>
+      <article class="act"><div class="img"><img src="img/hult.jpg" alt="Hult Prize"></div><div class="body"><h3>Hult Prize Foundation</h3><div class="meta"><span data-fr='<i class="fa-regular fa-user"></i> Coordinatrice'><i class="fa-regular fa-user"></i> Coordinator</span><span><i class="fa-regular fa-calendar"></i> 2019 – 2020</span></div><p data-fr="Soutien à la compétition étudiante d'entrepreneuriat social.">Supported the student social-entrepreneurship competition.</p></div></article>
+    </div>
+    <div class="act-nav"><button type="button" id="prev" aria-label="Previous"><i class="fa-solid fa-chevron-left"></i></button><button type="button" id="next" aria-label="Next"><i class="fa-solid fa-chevron-right"></i></button></div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <canvas id="net2" aria-hidden="true"></canvas>
+  <div class="container">
+    <div class="reveal from-left">
+      <h2 data-fr="Construisons ensemble quelque chose d'intelligent.">Let's build something intelligent together.</h2>
+      <p data-fr="Ouverte aux postes de scientifique de données, développeuse ML et chercheuse en IA et ML, à Montréal ou à distance. Je travaille en français et en anglais.">Open to Data Scientist, ML Developer and AI &amp; ML Researcher roles in Montréal or remote. I work in English and French.</p>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:22px">
+        <a class="btn ghost" href="https://www.linkedin.com/in/rania-farjallah-3a3600192" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin-in"></i> LinkedIn</a>
+      </div>
+    </div>
+    <div class="lines reveal from-right">
+      <div class="line"><span class="ic"><i class="fa-solid fa-envelope"></i></span><span class="v">rania.farjallah.eng@gmail.com</span><button type="button" data-copy="rania.farjallah.eng@gmail.com" data-fr="Copier">Copy</button></div>
+      <div class="line"><span class="ic"><i class="fa-solid fa-location-dot"></i></span><span class="v">Montréal, Canada</span></div>
+    </div>
+  </div>
+</section>
+
+<footer><div class="container"><span>© 2026 Rania <span class="it">Farjallah</span></span><span data-fr="Scientifique de données · Développeuse ML · Chercheuse en IA et ML">Data Scientist · ML Developer · AI &amp; ML Researcher</span></div></footer>
+<a href="#home" class="to-top" id="toTop" aria-label="Back to top"><i class="fa-solid fa-chevron-up"></i></a>
+
+
+<script src="js/main.js"></script>
+</body>
+</html>
